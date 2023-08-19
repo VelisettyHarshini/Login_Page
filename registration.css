@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(241, 214, 235);
+}
+
+.container-in {
+    border: 1px solid black;
+    height: 40vh;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    background-color: rgb(247, 247, 247);
+}
+
+.one-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.one-one input[ type="text"] {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+    height: 30px;
+    width: 80%;
+    
+}
+
+.two-two {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.two-two input[ type="Email"] {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+    height: 30px;
+    width: 80%;
+}
+
+.three-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.three-three input[ type="Password"] {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+    width: 80%;
+    padding-left: 10px;
+}
+
+.four-four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.four-four input[type="Confirm Password"] {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+    height: 30px;
+    width: 80%;
+}
+
+.five-five {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.five-five button {
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    width: 80%;
+
+}
+
+
+
+
+
